@@ -1,0 +1,25 @@
+
+.home{
+    margin: 0;
+    margin-top: 3rem;
+}
+.background{
+    position: relative;
+}
+.title{
+    font-size: 8.4rem;
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.title_sale{
+         font-size: 8.4rem;
+        color: white;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    
+}

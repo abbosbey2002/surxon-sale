@@ -1,0 +1,57 @@
+
+
+body{
+    /* background: #171836; */
+}
+
+
+/* bar menu style */
+.bar_menu{
+    display: none;
+}
+nav{
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 2rem;
+}
+.ul_items{
+    /* max-width: 400px; */
+    display: flex;
+    justify-content: space-around;
+}
+.navbar_all_items{
+    font-size: 2.4rem;
+    text-decoration: none;
+    color: black;
+    margin: 2rem;
+}
+li{
+    list-style: none;
+}
+
+/* brend style */
+.brend{
+    color: black;
+    font-size: 3.4rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    padding:  2rem;
+    
+    
+}
+.brend span{
+    color: red;
+}
+/* sign style, users registratsiya  */
+
+.sign{
+    background: rgb(250, 250, 250);
+    color: rgb(0, 0, 0);
+    border: 1px solid black;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    border-end-start-radius: 1rem;
+    padding: 1rem 2rem;
+    margin: 1rem;
+}
