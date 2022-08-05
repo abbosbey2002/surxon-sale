@@ -1,0 +1,62 @@
+.About_box{
+margin: auto;
+}
+
+h1{
+    font-size: 2.4rem;
+    text-align: center;
+}
+p{
+    font-size: 1.8rem;
+    border: 1px dashed red;
+    padding: 2rem 1rem;
+    margin: 1rem;
+    animation: ranglar 6s linear infinite;
+}
+
+@keyframes ranglar {
+    0%{
+        color: red;
+        background: blue;
+    }
+    20%{
+        color: blue;
+        background: red;
+    }
+    40%{
+        color: black;
+        background: white;
+    }
+    60%{
+        color: white;
+        background: #000;
+    }
+    80%{
+        color: green;
+        background: yellow;
+    }
+    100%{
+        color: yellow;
+        background: green;
+    }
+
+}
+
+
+/* 
+        animation: animate 6s linear infinite;
+        }
+    
+        @keyframes animate {
+    
+            0%,
+            10%,
+            100% {
+                width: 0;
+            }
+    
+            70%,
+            90% {
+                width: 100%;
+            }
+        } */

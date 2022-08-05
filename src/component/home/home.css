@@ -1,11 +1,18 @@
 
 .home{
+    width: 100wh;
+    height: 100vh;
+    background: url(/public/img/bg.jpg);
+    background-position: center;
     margin: 0;
     margin-top: 3rem;
 }
-.background{
+/* .background{
     position: relative;
-}
+    min-width: 1559px;
+    max-height: 1700px;
+    overflow: hidden;
+} */
 .title{
     font-size: 8.4rem;
     color: white;
@@ -22,4 +29,8 @@
         left: 50%;
         transform: translate(-50%, -50%);
     
+}
+
+@media screen and (max-width:1163px){
+   
 }

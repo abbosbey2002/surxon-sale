@@ -22,9 +22,8 @@ const Navbar=()=>{
                 <a href="#eg" className="login navbar_all_items sign">Login</a>
             </div>
             <div>
-              <div className="bar_menu"> <i className="fa-solid fa-bars"></i> </div>  
+              <div className="bar_menu"> <i className="fa-solid fa-bars"> M</i> </div>  
               <i className="fa-solid"></i>
-              
               
             </div>
         </nav>

@@ -26,6 +26,7 @@ nav{
     text-decoration: none;
     color: black;
     margin: 2rem;
+    font-weight: lighter;
 }
 li{
     list-style: none;
@@ -54,4 +55,29 @@ li{
     border-end-start-radius: 1rem;
     padding: 1rem 2rem;
     margin: 1rem;
+}
+
+@media screen and (max-width:1032px) {
+    .nav_items{
+        display: none;
+    }
+    .bar_menu{
+        display: block;
+    }
+    .brend{
+        font-size: 2.7rem;
+    }
+    .sign{
+        font-size: 2rem;
+    }
+}
+@media screen and (max-width:445px) {
+    .brend {
+        font-size: 2.2rem;
+    }
+
+    .sign {
+        font-size: 1.5rem;
+        letter-spacing: 2px;
+    }
 }

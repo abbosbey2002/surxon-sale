@@ -1,7 +1,7 @@
 
 import React, {useState, useEffect} from "react";
 // import Skeleton from "react-loading-skeleton";
-// import {NavLink} from 'react-router-dom';
+import {NavLink} from 'react-router-dom';
 import './products.css';
 
 const Products=()=>{
@@ -42,22 +42,40 @@ const Products=()=>{
   }
 
   const ShowProducts=()=>{
-    <div className="buttons">
-      <button className="btn">All</button>
-      <button className="btn">Men's clothing</button>
-      <button className="btn">Women's clothing</button>
-      <button className="btn">Jewelery</button>
-      <button className="btn">Electronic</button>
+   return(
+    <>
+     <div className="buttons" key={45}>
+      <button className="btn_red">All</button>
+      <button className="btn_red">Men`s clothing</button>
+      <button className="btn_red">Women's clothing</button>
+      <button className="btn_red">Electronic</button>
+      <button className="btn_red">Jevelery</button>
     </div>
-  }
-
+    {filter.map((product)=>{
+      return(
+        <>
+       <div className="box" id={product.id}>
+         <img src={product.image} alt={product.title} />
+        <h1>{product.title}</h1>
+        <p>${product.price}</p>
+        <NavLink to={`/products/${product.id}`}> Buy now </NavLink>
+       </div>
+        </>
+      )
+    })}
+    </>
+   )
+  } 
+    
+    
    
 
     return(
         <>
-        <div className="container">
+        <div className="">
           <h1>Latest Products</h1>
         </div>
+        <hr />
 
         <div className="container">
           {loading ?  <Loading/> : <ShowProducts/>}
